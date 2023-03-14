@@ -12,7 +12,7 @@ General description of data extraction process.
 Due to Twitter's privacy policies and restrictions, it is not possible to share complete tweets in a dataset. For this reason, in our dataset of Spanish tweets about Covid, we provide only the tweet IDs. The rehydration of the tweets can be performed using the Twitter API, which allows the full content of the tweet to be retrieved from its ID. Twitter may modify or restrict access to its API at any time, which may affect the availability and quality of the rehydrated data. Therefore, it is important to stay updated with the terms and conditions of the Twitter API and have a contingency plan in case of changes in data access.
 <br>
 <br>
-<H4>Rehydration of a tweet
+<H4>Rehydration of a tweet></H4>
 <!-- Código de ejemplo -->
 <pre><code class="language-python">
 
