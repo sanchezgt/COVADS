@@ -16,7 +16,7 @@ Due to Twitter's privacy policies and restrictions, it is not possible to share 
   <code>
 import tweepy
 
-# Authenticate to Twitter
+#Authenticate to Twitter
 auth = tweepy.OAuth1UserHandler(
     "API_KEY",
     "API_SECRET_KEY",
@@ -24,13 +24,13 @@ auth = tweepy.OAuth1UserHandler(
     "ACCESS_TOKEN_SECRET"
 )
 
-# Create API object
+#Create API object
 api = tweepy.API(auth)
 
-# Example tweet ID
+#Example tweet ID
 tweet_id = "1234567890"
 
-# Rehydrate tweet
+#Rehydrate tweet
 try:
     tweet = api.get_status(tweet_id, tweet_mode="extended")
     print(tweet.full_text)
