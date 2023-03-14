@@ -6,12 +6,18 @@ This dataset consists of 6,306,621 id tweets in Spanish language collected durin
 <div align="center" >
   <img src="resources/methodology.png" alt="descripción de la imagen" width="400px">
 </div>
-General description of data extraction process.
+<div style="text-align:center">
+  <h4>General description of data extraction process.</h4>  
+</div>
+
 <br>
 <br>
 Due to Twitter's privacy policies and restrictions, it is not possible to share complete tweets in a dataset. For this reason, in our dataset of Spanish tweets about Covid, we provide only the tweet IDs. The rehydration of the tweets can be performed using the Twitter API, which allows the full content of the tweet to be retrieved from its ID. Twitter may modify or restrict access to its API at any time, which may affect the availability and quality of the rehydrated data. Therefore, it is important to stay updated with the terms and conditions of the Twitter API and have a contingency plan in case of changes in data access.
 <br>
 <br>
+
+### An example of rehydrate tweet
+
 <pre>
   <code>
 import tweepy
